@@ -712,4 +712,11 @@ let names: string = rickAndMortyApi
 .map(element => element.name).join()
 console.log("Names: " + names)
 
+let rAMObjects: {name:string, origin:string}[]= rickAndMortyApi
+    .map(element => {
+        let back:{name:string, origin:string} = {name: element.name,origin: element.origin.name}
 
+        return back;
+        }
+    )
+console.log(rAMObjects)
