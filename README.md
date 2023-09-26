@@ -13,3 +13,22 @@ Erstellt ein neues TypeScript-Projekt in IntelliJ und führt die folgenden leich
 
     Schritt 4: Erstellt ein Array von Zahlen. Nutzt die '.some'-Funktion, um zu überprüfen, ob mindestens eine Zahl größer als 10 ist.
 
+
+## Bonus
+
+
+    Kopiere dir die Antwort der Rick&Morty Api mit den Charakteren in eine Variable.
+
+    Schreibe eine Funktion die eine Liste mit Rick&Morty Charakteren entgegen nimmt und eine Liste mit nur den lebenden Menschen zurück gibt.
+
+    Schreibe eine weitere Funktion die eine Liste mit Rick&Morty Charakteren entgegen nimmt und eine Liste (aus Strings) mit den Namen der Charaktere zurück gibt.
+
+    Schreibe eine weitere Funktion die eine Liste mit Rick&Morty Charakteren entgegen nimmt und eine Liste mit speziellen Objekten zurück gibt. Die Objekte sollen folgend aufgebaut sein:
+
+
+        {
+            "name": "some-name",
+            "origin": "name-of-origin",
+        }
+
+
